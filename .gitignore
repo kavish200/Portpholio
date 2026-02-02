@@ -1,0 +1,55 @@
+# Portfolio MERN Application
+
+This is a complete MERN stack portfolio website template for students.
+
+## Quick Start
+
+1. Install backend dependencies: `cd server && npm install`
+2. Install frontend dependencies: `cd client && npm install`
+3. Configure MongoDB in `server/.env`
+4. Start backend: `cd server && npm run dev`
+5. Start frontend: `cd client && npm start`
+
+See [GETTING_STARTED.md](GETTING_STARTED.md) for detailed instructions.
+
+## Features
+
+- Modern responsive design
+- Project showcase
+- Skills display with proficiency bars
+- Blog section
+- Contact form
+- Admin API endpoints
+- Smooth animations
+- Mobile optimized
+
+## Technologies
+
+**Frontend**: React, Framer Motion, React Icons, CSS3
+**Backend**: Node.js, Express, MongoDB, Mongoose
+**Tools**: npm, Git, VS Code
+
+## Folder Structure
+
+```
+├── client/          # React frontend
+├── server/          # Express backend
+├── README.md        # Main documentation
+└── GETTING_STARTED.md # Setup guide
+```
+
+## Development
+
+- Backend runs on `http://localhost:5000`
+- Frontend runs on `http://localhost:3000`
+- API proxy configured in client/package.json
+
+## Documentation
+
+- See [README.md](README.md) for full documentation
+- See [GETTING_STARTED.md](GETTING_STARTED.md) for setup instructions
+- Backend API endpoints documented in README.md
+
+---
+
+**Ready to showcase your portfolio!** 🚀

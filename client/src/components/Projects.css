@@ -1,0 +1,99 @@
+.projects {
+  background: white;
+  padding: 80px 0;
+}
+
+.project-card {
+  background: white;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 30px;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.project-card:hover {
+  border-color: var(--primary);
+  box-shadow: 0 10px 30px rgba(99, 102, 241, 0.2);
+  transform: translateY(-5px);
+}
+
+.project-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  margin-bottom: 1rem;
+}
+
+.project-header h3 {
+  font-size: 1.5rem;
+  color: var(--text);
+}
+
+.badge {
+  background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
+  color: white;
+  padding: 0.25rem 0.75rem;
+  border-radius: 20px;
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+.project-description {
+  color: var(--text-light);
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
+
+.tech-stack {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.tech-tag {
+  background: var(--light);
+  color: var(--primary);
+  padding: 0.25rem 0.75rem;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+
+.project-links {
+  display: flex;
+  gap: 1rem;
+}
+
+.link-btn {
+  padding: 0.5rem 1.25rem;
+  background: var(--primary);
+  color: white;
+  border-radius: 6px;
+  font-weight: 600;
+  transition: all 0.3s;
+  display: inline-block;
+}
+
+.link-btn:hover {
+  background: var(--primary-dark);
+  transform: translateY(-2px);
+}
+
+.link-btn.github {
+  background: transparent;
+  border: 2px solid var(--primary);
+  color: var(--primary);
+}
+
+.link-btn.github:hover {
+  background: var(--primary);
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .projects {
+    padding: 50px 0;
+  }
+}
