@@ -236,6 +236,5 @@ For support, reach out via the contact form or create an issue in the repository
 
 ---
 
-**Made with ❤️ by [Your Name]**
+**Made with ❤️ by [Kavish Jain]**
 
-Happy coding! 🚀
